@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Шифрович</title>
+</head>
+
+<body class="page">
+  <h1 class="visually-hidden">Шифрович</h1>
+  <form class="app">
+
+    <div class="app__item  app__encrypt">
+      <label class="visually-hidden" for="encrypt">
+        <h2>Зашифровать</h2>
+      </label>
+      <textarea class="app__input  app__input-encrypt" type="text" id="encrypt"
+        placeholder="Encrypt (зашифровать)..."></textarea>
+      <p class="app__result-encrypt  app__input"></p>
+    </div>
+
+    <div class="app__item  app__decipher">
+      <label class="visually-hidden" for="decipher">
+        <h2>Расшифровать</h2>
+      </label>
+      <textarea class="app__input  app__input-decipher" type="text" id="decipher"
+        placeholder="Decipher (расшифровать)..."></textarea>
+      <p class="app__result-decipher  app__input"></p>
+    </div>
+
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
