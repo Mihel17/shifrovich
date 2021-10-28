@@ -134,7 +134,7 @@ inputEncrypt.addEventListener("input", function (evt) {
       codedMessage[i] = 57;
     }
 
-    resultEncrypt.textContent = codedMessage.join('. ');
+    resultEncrypt.textContent = codedMessage.join(' ');
   };
 });
 
@@ -150,7 +150,7 @@ let resultDecipher = document.querySelector('.app__result-decipher');
 inputDecipher.addEventListener("input", function (evt) {
   evt.preventDefault();
   //-----------------------------------
-  let encodedSymbols = inputDecipher.value.split('. ');
+  let encodedSymbols = inputDecipher.value.split(' ');
   //-----------------------------------
   let decodedMessage = '';
   let messageArray = [];
