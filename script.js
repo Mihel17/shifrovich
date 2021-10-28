@@ -136,7 +136,6 @@ inputEncrypt.addEventListener("input", function (evt) {
 
     resultEncrypt.textContent = codedMessage.join(', ');
   };
-
 });
 
 //-----------------------------------
